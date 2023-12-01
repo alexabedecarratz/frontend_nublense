@@ -1,0 +1,27 @@
+.perfil-usuario {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 80px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+
+  .perfil-img {
+    flex: 1;
+    margin-right: 100px;
+  }
+
+  .perfil-img img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .perfil-atributos {
+    flex: 2;
+  }
+
+  

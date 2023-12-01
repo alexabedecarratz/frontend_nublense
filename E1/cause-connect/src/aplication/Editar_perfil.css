@@ -1,0 +1,45 @@
+/* Estilos para el formulario de inscripción */
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .registration-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .registration-form input[type="text"],
+  .registration-form input[type="email"],
+  .registration-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .registration-form select {
+    width: 100%;
+  }
+
+  .registration-form button {
+    background-color: #ff5a5f;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .registration-form button:hover {
+    background-color: #ff474d;
+  }

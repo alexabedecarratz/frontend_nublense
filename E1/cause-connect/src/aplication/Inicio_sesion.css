@@ -1,0 +1,41 @@
+.Login { 
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1); 
+  background-color: #f0faff;
+
+  }
+
+  .Login form label {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      margin-bottom: 10px;
+  }
+
+  .Login form input[type="text"],
+  .Login form input[type="mail"],
+  .Login form input[type="contrasena"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+  }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que la barra de navegación esté encima de otros elementos */
+}
+
+.content-container {
+    margin-top: 50px; /* Ajusta el valor según sea necesario para separar la barra de navegación del contenido */
+}
+
+/* Agrega otros estilos según sea necesario */

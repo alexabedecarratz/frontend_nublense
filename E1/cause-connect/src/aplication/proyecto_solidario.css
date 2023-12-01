@@ -1,0 +1,86 @@
+.container-principal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.perfil-proyecto-container {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+
+.inscripcion-form {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.perfil-content {
+  display: flex;
+  align-items: flex-start; /* Alinear al principio */
+}
+
+.perfil-img {
+  margin-right: 20px;
+}
+
+  
+.perfil-proyecto-container h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  .info-section {
+    margin-top: 20px;
+  }
+  
+  .info-section p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+  
+  .info-section strong {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+
+
+.perfil-container {
+  border: 1px solid #ccc; /* Borde del recuadro */
+  padding: 20px; /* Espaciado interno */
+  margin: 20px; /* Margen externo */
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.perfil-content {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-img {
+  margin-right: 20px; /* Espaciado entre la imagen y el contenido de atributos */
+}
+
+.form-container {
+  flex: 1; /* Ocupa el 50% del ancho */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

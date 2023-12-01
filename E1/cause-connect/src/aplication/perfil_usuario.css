@@ -1,0 +1,221 @@
+.search-bar {
+    background-color: #f0f0f0;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(225, 204, 204, 0.1);
+    margin-bottom: 400px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: grid;
+    align-items: center;
+
+  }
+
+  .search-bar input[type="text"],
+  .search-bar input[type="date"] {
+
+    border: none;
+    outline: none;
+
+    align-items: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.4rem;
+  }
+
+  .search-button {
+    background-color: #ff5a5f;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .search-button:hover {
+    background-color: #ff474d;
+    align-items: center;
+  }
+
+
+  /* Estilos para las tarjetas de organizaciones */
+  .organization-card {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    float: left; /* Colocar las tarjetas una al lado de la otra */
+    clear: none; /* No borrar ningún elemento flotante (evita problemas de diseño) */
+    max-width: 350px; /* Ancho máximo de la tarjeta */
+    margin-right: 20px; /* Espacio entre las tarjetas (ajusta según sea necesario) */
+  }
+
+  /* Estilo para la imagen dentro de la tarjeta */
+  .organization-card img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+  }
+
+
+  /* Estilo para el botón */
+  .organization-card button {
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  .organization-card button:hover {
+    background-color: #ff474d;
+  }
+
+
+  .filtro-tipo-voluntariado {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+
+  .filtro-tipo-voluntariado label {
+    font-weight: bold;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .search-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+
+  /* Agrega este CSS a tu archivo de estilos PaginaPrincipal.css o en un archivo separado si lo prefieres */
+
+  .button-group {
+
+    display: flex;
+    flex-direction: column; /* Coloca los botones uno encima del otro */
+    align-items: center; /* Centra los botones horizontalmente */
+  }
+
+
+
+  .follow-button {
+  /* Estilos para el botón "Seguir" */
+  background-color: #ff5733; /* Color de fondo azul */
+  color: white; /* Color del texto blanco */
+  margin-bottom: 10px; /* Espacio entre los botones */
+  /* Otros estilos según sea necesario */
+  }
+
+  .contact-button {
+  /* Estilos para el botón "Contactar" */
+  background-color: #ff9a83; /* Color de fondo naranja */
+  color: white; /* Color del texto blanco */
+  /* Otros estilos según sea necesario */
+  }
+
+  .chat-window {
+
+    width: 400px;
+    height: 400px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+
+  .chat-title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .chat-messages {
+    max-height: 250px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .chat-textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+  .send-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+
+  }
+
+
+    .chat-title {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .chat-messages {
+      max-height: 250px;
+      overflow-y: scroll;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .chat-textarea {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+
+    .send-button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+
+    }
+
+  /* Estilos para la barra de navegación */
+  .navbar {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    color: white; /* Color del texto */
+    padding: 0px; /* Espaciado interno */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  .user-label {
+    color: #f51049;
+  }

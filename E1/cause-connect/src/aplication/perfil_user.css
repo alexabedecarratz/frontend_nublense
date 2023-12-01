@@ -1,0 +1,45 @@
+.perfil-usuario {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 80px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del diseño a columna */
+    align-items: center; /* Alinea horizontalmente al centro */
+}
+
+.perfil-content {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    display: flex;
+    justify-content: center; /* Alinea horizontalmente al centro */
+}
+
+.perfil-img {
+    flex: 1;
+    margin-right: 100px;
+    text-align: center; /* Alinea el texto en el centro */
+}
+
+.perfil-atributos {
+    flex: 2;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.editar-btn {
+    background-color: #3498db; /* Cambia el color de fondo según tu preferencia */
+    color: #fff; /* Cambia el color del texto según tu preferencia */
+  }
+  
+  /* Estilo para el botón de eliminar */
+  .eliminar-btn {
+    background-color: #e74c3c; /* Cambia el color de fondo según tu preferencia */
+    color: #fff; /* Cambia el color del texto según tu preferencia */
+  }
+
+  button {
+    margin-right: 10px; /* Ajusta el margen entre los botones */
+  }
+  
