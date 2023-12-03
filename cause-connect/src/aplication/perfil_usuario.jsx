@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom'; // Importa Link desde 'react-router-dom' para crear el enlace de edición
-import Post from './Post';
+import Post from './post';
 import { AuthContext } from "../auth/AuthContext";
 
 export default function UserProfile() {
