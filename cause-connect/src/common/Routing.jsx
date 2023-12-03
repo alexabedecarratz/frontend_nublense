@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Instructions from '../aplication/Instructions';
+import Instructions from '../aplication/instructions';
 import PaginaPrincipal from '../aplication/pagina_principal';
 import PaginaBienvenida from '../profile/PaginaBienvenida';
 import RegistrationForm from '../aplication/registro';
